@@ -1,9 +1,6 @@
 Pwning CTF Challenge Deployer
 ===
 
-Forker from [veritas501/my-ctf-xinetd](https://github.com/veritas501/my-ctf-xinetd)
-[OLD README](.origin.README.md)
-
 ## [Chinese(Traditional) version](README-zhtw.md)
 
 ### Project Structure (Place your file with this structure :))
@@ -18,7 +15,7 @@ Forker from [veritas501/my-ctf-xinetd](https://github.com/veritas501/my-ctf-xine
 └── deactivator.py
 ```
 
-### Challenge
+### Setup
 Place your challenge in `chal/`, and create a folder with the same challenge name.
 
 e.g.:
@@ -31,8 +28,8 @@ e.g.:
 
 ### Usage:
 ```
-git clone https://github.com/racterub/my-ctf-xinetd
-cd my-ctf-xinetd
+git clone https://github.com/racterub/ctf-pwn-deployer
+cd ctf-pwn-deployer/
 python activator.py <PORT> <IMAGE VERSION> <TIMEOUT> # Create and Running container      // port will increase its value depends on the amount of your challenge 
                                                                                         // TIMEOUT is optional (set 0 to cancel timeout)
 
