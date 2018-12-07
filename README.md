@@ -1,4 +1,4 @@
-Pwning CTF Challenge Deployer
+CTF PwningChallenge Deployer
 ===
 
 ## [Chinese(Traditional) version](README-zhtw.md)
